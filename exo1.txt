@@ -1,0 +1,61 @@
+
+  125  mkdir unix
+  126  cd unix
+  127  mkdir foo.txt
+  128  ls
+  129  mkdir foo-copy.txt
+  130  ls
+  131  cp foo.txt foo-copy.txt
+  132  ls
+  133  cp foo.txt foo-copy.txt
+  134  cp -r foo.txt foo-copy.txt
+  135  ls
+  136  cd foo-copy.txt
+  137  ls
+  138  cd .
+  139  cd ..
+  140  mv foo-copy.txt foo2.txt
+  141  ls
+  142  mkdir data
+  143  mv foo2.txt data
+  144  ls
+  145  cd data
+  146  ls
+  147  cd ..
+  148  mkdir new
+  149  ls
+  150  mv foo2.txt.data new
+  151  mv foo.txt/data new
+  152  mv foo2.txt new
+  153  mv/data/unix/new
+  154  mv/data/foo2.txt/ new
+  155  mv /data/foo2.txt/ new
+  156  mv /data/foo2.txt/ /new
+  157  mv /data/foo2.txt/ new
+  158  cd data
+  159  ls
+  160  cd ..
+  161  cd data
+  162  ls
+  163  mv /new foo2.txt
+  164  cd ..
+  165  cd new
+  166  ls
+  167  cd ..
+  168  mv /data foo2.txt new
+  169  mv data/foo2.txt new
+  170  ls new
+  171  cd unix
+  172  mv new/foo2.txt foo-old.txt
+  173  cd foo-old.txt
+  174  ls
+  175  cd ..
+  176  cd foo2.txt
+  177  ls
+  178  rmdir foo-old.txt
+  179  rm foo-old.txt
+  180  rm -r foo-old.txt
+  181  ls
+  182  rmdir new
+  183  ls
+  184  history>>exo1.txt

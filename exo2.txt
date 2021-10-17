@@ -1,0 +1,8 @@
+  186  ls -a
+  187  ls
+  188  ls -R
+  189  cd unix
+  190  wc exo1.txt
+  191  wc -l
+  192  history>>exo2.txt
+
